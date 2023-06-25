@@ -1,4 +1,17 @@
-# wp_test
+# WPSync Plugin
 
-Linux
-1. Перейти в діректорію wp-content/plugins і виконати команду git clone git@github.com:ds40a/wp_test.git .
+Тестовое задание
+
+## Описание
+
+Обновление товарной базы
+
+## Installation
+
+Скачайте `zip` с `https://github.com/ds40a/wp_test`.
+
+В административной панели WP зайдите `Plugins`, `Add new`, `Upload Plugin` виберите скачаный файл и активируйте плагин.
+
+## Use
+
+После активации будет срабатывать событие `wpsсhedule_sync` каждый час и обновлять товарную базу согласно ТЗ.
