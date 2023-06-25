@@ -26,4 +26,4 @@ if ( ! function_exists( 'wpsync_webspark_deactivation_action' ) ) {
     }
 }
 
-add_action('wpshedule_sync', array( 'WpSyncWebspark', 'sync_action'));
+add_action('wpsсhedule_sync', array( 'WpSyncWebspark', 'sync_action'));
